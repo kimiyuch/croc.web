@@ -45,8 +45,14 @@
                 <h2 class="font-display text-2xl font-semibold tracking-tight text-billabong-950">Privacy</h2>
                 <div class="max-w-[65ch] space-y-4 text-base/7 text-pretty text-neutral-600">
                     <p>
-                        Croc has no accounts, ads or analytics, and doesn’t connect to the internet. Your videos are
-                        converted on your Mac and never uploaded anywhere.
+                        Croc has no accounts, ads or analytics, and sends nothing about you or your videos to us. Your videos
+                        are converted on your Mac and never uploaded anywhere.
+                    </p>
+                    <p>
+                        The only time Croc connects to the internet is to check for updates. Once a day it downloads a small
+                        file from GitHub, and if you choose to install a new version, it downloads that from GitHub too.
+                        GitHub sees your IP address, like any website you visit. You can turn automatic checks off with
+                        Croc → Check for Updates Automatically.
                     </p>
                     <p>
                         This website doesn’t use analytics or tracking. It counts how often the download link is clicked,

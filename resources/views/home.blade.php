@@ -172,7 +172,7 @@
                         <dd class="font-display text-2xl font-semibold tracking-tight text-billabong-950">None</dd>
                     </div>
                     <div class="flex items-baseline justify-between gap-x-6 py-6">
-                        <dt class="text-base/7 text-neutral-600">Internet connection</dt>
+                        <dt class="text-base/7 text-neutral-600">Uploads your videos</dt>
                         <dd class="font-display text-2xl font-semibold tracking-tight text-billabong-950">Never</dd>
                     </div>
                     <div class="flex items-baseline justify-between gap-x-6 py-6">
@@ -230,7 +230,7 @@
                 </ol>
 
                 <p class="mt-16 border-t border-neutral-950/5 pt-8 text-base/7 text-neutral-600 sm:text-sm/6">
-                    Croc needs a Mac with Apple Silicon (M1 or newer) and macOS 14 or later. It doesn’t update itself yet: new versions show up in the <a href="/changelog" class="font-medium text-billabong-700 hover:text-billabong-600">changelog</a>.
+                    Croc needs a Mac with Apple Silicon (M1 or newer) and macOS 14 or later. It checks for new versions once a day and offers to install them; see what’s new in the <a href="/changelog" class="font-medium text-billabong-700 hover:text-billabong-600">changelog</a>.
                 </p>
             </div>
         </section>
