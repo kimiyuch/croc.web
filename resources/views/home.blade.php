@@ -91,7 +91,7 @@
                             </div>
                             <p class="mt-4 text-sm/6 font-semibold text-billabong-200">{{ $format['for'] }}</p>
                             <p class="mt-2 text-base/7 text-pretty text-billabong-100/70">{{ $format['body'] }}</p>
-                            <pre class="mt-8 rounded-lg whitespace-pre-wrap break-all bg-black/30 p-4 font-mono text-xs/5 text-billabong-100 ring-1 ring-white/5 sm:mt-auto"><code>{{ $format['snippet'] }}</code></pre>
+                            <pre class="mt-8 rounded-lg whitespace-pre-wrap [overflow-wrap:anywhere] bg-black/30 p-4 font-mono text-xs/5 text-billabong-100 ring-1 ring-white/5 sm:mt-auto"><code>{{ $format['snippet'] }}</code></pre>
                         </div>
                     @endforeach
                 </div>

@@ -32,7 +32,7 @@ npm run build     # if you changed the design; commit public/build
 | `resources/views/home.blade.php` | The landing page |
 | `resources/views/components/app-window.blade.php` | The Croc window mock in the hero |
 | `resources/views/components/layouts/app.blade.php` | The HTML shell, fonts and meta tags |
-| `resources/css/app.css` | Theme colors (`billabong` for the icon's murky olive) and fonts |
+| `resources/css/app.css` | Theme colors (`billabong` for the croc's green) and fonts |
 | `config/croc.php` | Repository and download links |
 | `public/images/croc.png` | The app icon, rendered by `scripts/make-icon.mjs` in the app's repository |
 
