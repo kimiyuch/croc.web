@@ -17,8 +17,8 @@
 {{-- A mock of the Croc window: format cards, settings and the list of videos, like in the app. --}}
 <div {{ $attributes->class('overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-billabong-950/10') }} aria-hidden="true">
     <div class="relative text-xs/5 sm:text-sm/5">
-        {{-- The dark band at the top of the window --}}
-        <div class="border-b border-white/10 bg-linear-to-b from-billabong-900 to-billabong-950 px-4 pt-3 pb-4 sm:px-6 sm:pb-5">
+        {{-- The light green band at the top of the window --}}
+        <div class="border-b border-billabong-950/10 bg-linear-to-b from-billabong-100 to-billabong-200 px-4 pt-3 pb-4 sm:px-6 sm:pb-5">
             <div class="flex gap-x-2">
                 <div class="size-3 rounded-full bg-[#ff5f57]"></div>
                 <div class="size-3 rounded-full bg-[#febc2e]"></div>
@@ -28,11 +28,11 @@
             <div class="mt-4 flex items-center gap-x-3">
                 <img src="{{ asset('images/croc.webp') }}" alt="" class="size-8 sm:size-9">
                 <div>
-                    <div class="font-display text-base font-semibold text-white">Croc</div>
-                    <div class="text-billabong-100/70 tabular-nums">3 videos · 1 done · 402 MB saved</div>
+                    <div class="font-display text-base font-semibold text-billabong-950">Croc</div>
+                    <div class="text-billabong-900/70 tabular-nums">3 videos · 1 done · 402 MB saved</div>
                 </div>
-                <span class="ml-auto inline-flex items-center gap-x-1.5 rounded-full bg-white/5 px-3 py-1 font-semibold text-billabong-300 ring-1 ring-white/10">
-                    <x-heroicon-m-stop class="size-4 shrink-0 fill-billabong-300" />
+                <span class="ml-auto inline-flex items-center gap-x-1.5 rounded-full bg-white/60 px-3 py-1 font-semibold text-billabong-700 ring-1 ring-billabong-950/10">
+                    <x-heroicon-m-stop class="size-4 shrink-0 fill-billabong-700" />
                     Stop
                 </span>
             </div>
