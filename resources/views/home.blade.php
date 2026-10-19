@@ -45,7 +45,7 @@
         <section class="relative pt-10 pb-24 sm:pt-16 sm:pb-32">
             <div class="mx-auto max-w-6xl px-6 text-center lg:px-8">
                 <img src="{{ asset('images/croc.webp') }}" width="384" height="384" fetchpriority="high" alt="The Croc app icon: a crocodile peeking over a film clapperboard" class="mx-auto size-32 sm:size-40">
-                <h1 class="mx-auto mt-8 max-w-[20ch] font-display text-5xl font-semibold tracking-tight text-balance text-billabong-950 sm:text-7xl">
+                <h1 class="mx-auto mt-8 max-w-[16ch] font-display text-5xl font-semibold tracking-tight text-balance text-billabong-950 sm:text-7xl">
                     Chew big videos down to size
                 </h1>
                 <p class="mx-auto mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600 sm:text-xl/8">
