@@ -1,0 +1,24 @@
+@import 'tailwindcss' source(none);
+
+/* Only scan the templates; nothing else in the project contains classes. */
+@source '../views';
+@source '../js';
+
+@theme {
+    --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+    /* Billabong: the murky olive of the app icon, the still water a croc waits in. The brand colour. */
+    --color-billabong-50: #f6f7ee;
+    --color-billabong-100: #eaedd6;
+    --color-billabong-200: #d5dcae;
+    --color-billabong-300: #b8c47d;
+    --color-billabong-400: #9aa955;
+    --color-billabong-500: #7d8c3b;
+    --color-billabong-600: #62702d;
+    --color-billabong-700: #4d5826;
+    --color-billabong-800: #3f4723;
+    --color-billabong-900: #2f351b;
+    --color-billabong-950: #1a1e0e;
+}
